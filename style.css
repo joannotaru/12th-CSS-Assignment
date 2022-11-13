@@ -1,0 +1,366 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+}
+
+.zero {
+    background-color: white;
+    border-radius: 10px;
+    grid-row: span 2;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 1.5em;
+    padding-top: 3em;
+    background-image: linear-gradient(to right, rgb(84, 84, 245), rgb(145, 75, 145), rgb(214, 101, 101));
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.zero p {
+    font-size: small;
+    color: lightgrey;
+}
+
+.suggest {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+nav {
+    background-color: darkblue;
+    grid-column: span 4;
+    border-radius: 10px;
+    color: whitesmoke;
+    border: 5px solid lightgray;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#upvote {
+    padding-right: 22em;
+    color: cadetblue;
+
+}
+
+select {
+    border: none;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 6px;
+    font-size: smaller;
+    padding: 0.8em;
+    color: aliceblue;
+}
+
+section {
+    border: 5px solid lightgray;
+}
+
+.first {
+    background-color: white;
+    border-radius: 10px;
+    grid-column: span 4;
+    grid-row: span 2;
+    display: flex;
+    align-items: flex-start;
+}
+
+.second {
+    background-color: white;
+    border-radius: 10px;
+    grid-row: span 2;
+}
+
+#all {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second #al {
+    width: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#u {
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    color: gray;
+}
+
+#hance {
+    display: flex;
+    justify-content: space-around;
+}
+
+#en {
+    width: 90px;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: gray;
+    padding-left: 0.5em;
+}
+
+#en1 {
+    width: 90px;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: gray;
+    padding-left: 0.5em;
+    font-size: smaller;
+}
+
+#enh {
+    width: 55px;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: gray;
+    margin-left: 1em;
+    text-align: center;
+}
+
+#enh1 {
+    width: 55px;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: gray;
+    font-size: smaller;
+    text-align: center;
+}
+
+.third {
+    background-color: white;
+    border-radius: 10px;
+    grid-column: span 4;
+    grid-row: span 2;
+    display: flex;
+    align-items: flex-start;
+}
+
+.text {
+
+    padding-left: 3em;
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.text #dark {
+    font-size: smaller;
+    width: 100%;
+    color: darkgray;
+}
+
+#blue {
+    color: darkblue;
+    font-weight: bolder;
+}
+
+.text span {
+    color: darkblue;
+
+}
+
+#uppoint {
+    background-color: lightgray;
+    width: 3%;
+    margin-top: 2em;
+    margin-left: 2em;
+    text-align: center;
+    padding: 0.5em;
+    font-size: smaller;
+    border-radius: 5px;
+    color: darkblue;
+}
+
+.fourth {
+    background-color: white;
+    border-radius: 10px;
+    grid-row: span 2;
+}
+
+.fourth div {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.fourth div span {
+    font-size: x-small;
+    text-decoration: underline;
+}
+
+#plan {
+    font-size: small;
+    list-style: none;
+}
+
+#plan #pl::before {
+    content: "\2022";
+    color: red;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -3em;
+}
+
+#plan #pr::before {
+    content: "\2022";
+    color: violet;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -3em;
+}
+
+#plan #li::before {
+    content: "\2022";
+    color: blue;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -3em;
+}
+
+#nos {
+    font-size: small;
+    list-style: none;
+    margin-right: -3em;
+}
+
+.fifth {
+    background-color: white;
+    border-radius: 10px;
+    grid-column: span 4;
+    grid-row: span 2;
+    display: flex;
+    align-items: flex-start;
+}
+
+.empty {
+    grid-row: span 7;
+}
+
+.sixth {
+    background-color: white;
+    border-radius: 10px;
+    grid-column: span 4;
+    grid-row: span 2;
+    display: flex;
+    align-items: flex-start;
+}
+
+.seventh {
+    background-color: white;
+    border-radius: 10px;
+    grid-column: span 4;
+    grid-row: span 2;
+    display: flex;
+    align-items: flex-start;
+}
+
+.eighth {
+    background-color: white;
+    border-radius: 10px;
+    grid-column: span 4;
+    grid-row: span 2;
+    display: flex;
+    align-items: flex-start;
+}
+
+.fa-comment {
+    padding-left: 19em;
+}
+
+/* Tablet view IPad Pro 11*/
+@media screen and (max-width: 900px) {
+    #upvote {
+       
+        padding-right: 10em;
+    }
+
+    #nos {
+        margin-right: 0;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    #dark {
+        font-size: small;
+    }
+
+    .fa-comment {
+        padding-left: 5em;
+    }
+}
+
+/* Phone view  IPhone11 Pro max*/
+@media screen and (max-width: 600px) {
+    #upvote {
+        display: none;
+    }
+
+    main {
+        /* grid-template-columns: 1fr; */
+        width: 100%;
+        height: auto;
+    }
+
+    .suggest {
+        font-size: small;
+    }
+
+    nav button {
+        font-size: x-small;
+    }
+
+    #uppoint {
+        font-size: x-small;
+        width: fit-content;
+        margin-left: 0.3em;
+    }
+
+    #blue {
+        font-size: smaller;
+    }
+
+    #dark {
+        font-size: xx-small;
+       
+    }
+    .text{
+       
+        padding-left: 0.2em;
+    }
+    
+}

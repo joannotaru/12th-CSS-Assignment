@@ -303,7 +303,7 @@ section {
 /* Tablet view IPad Pro 11*/
 @media screen and (max-width: 900px) {
     #upvote {
-       
+
         padding-right: 10em;
     }
 
@@ -326,18 +326,81 @@ section {
 
 /* Phone view  IPhone11 Pro max*/
 @media screen and (max-width: 600px) {
+
+
     #upvote {
         display: none;
     }
 
     main {
-        /* grid-template-columns: 1fr; */
-        width: 100%;
-        height: auto;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0.5rem;
+        margin-left: 1em;
+        grid-template-areas:
+            'suggest1'
+            'zero1'
+            'second1'
+            'fourth1'
+            'first1'
+            'third1'
+            'fifth1'
+            'sixth1'
+            'seventh1'
+            'eighth1'
+           
     }
 
     .suggest {
         font-size: small;
+        grid-area: suggest1;
+
+    }
+
+    .zero {
+        grid-area: zero1;
+
+    }
+
+    .second {
+        grid-area: second1;
+
+    }
+
+    .fourth {
+        grid-area: fourth1;
+
+    }
+
+    .first {
+        grid-area: first1;
+
+    }
+
+    .third {
+        grid-area: third1;
+
+    }
+
+    .fifth {
+        grid-area: fifth1;
+
+    }
+
+    .sixth {
+        grid-area: sixth1;
+
+    }
+
+    .seventh {
+        grid-area: seventh1;
+
+    }
+
+    .eighth {
+        grid-area: eighth1;
+
     }
 
     nav button {
@@ -356,11 +419,13 @@ section {
 
     #dark {
         font-size: xx-small;
-       
+
     }
-    .text{
-       
+
+    .text {
+
         padding-left: 0.2em;
     }
+
     
 }
